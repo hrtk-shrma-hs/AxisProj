@@ -12,15 +12,4 @@
       </class> <!-- Manippal.test.cases.TestCasesDemo -->
     </classes>
   </test> <!-- Firefox Test(failed) -->
-  <test thread-count="5" parallel="tests" name="Chrome Test(failed)">
-    <parameter name="Port" value="5555"/>
-    <classes>
-      <class name="Manippal.test.cases.TestCasesDemo">
-        <methods>
-          <include name="Scenario"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- Manippal.test.cases.TestCasesDemo -->
-    </classes>
-  </test> <!-- Chrome Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
