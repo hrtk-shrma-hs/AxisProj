@@ -25,7 +25,7 @@
 </property> <property> <name>reporter</name> <value>org.round3.utilities.ExtentReporterNG</value> 
 </property> </properties> -->
 <suiteXmlFiles>
-<suiteXmlFile>testng.xml</suiteXmlFile>
+<suiteXmlFile>testng2.xml</suiteXmlFile>
 </suiteXmlFiles>
 </configuration>
 </plugin>
