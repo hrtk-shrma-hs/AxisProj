@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Manippal.test.cases.TestCasesDemo">
+      <class name="Grid.Prac">
         <methods>
-          <include name="Scenario"/>
-          <include name="setup"/>
+          <include name="appleSite"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- Manippal.test.cases.TestCasesDemo -->
+      </class> <!-- Grid.Prac -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

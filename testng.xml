@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test thread-count="5" name="Test">
+<suite name="TestingGrid">
+  <test thread-count="5" name="Gridtest">
     <classes>
+      <class name="Manippal.test.cases.TestCases1"/>
       <class name="Selenium.TestNgAnnotations"/>
-      
+      <class name="Manipal.Axis_01062023.AppTest"/>
+      <class name="Grid.Class1"/>
+      <class name="Manippal.test.cases.TestCasesDemo"/>
       <class name="Selenium.TestNgConcepts"/>
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+  </test> <!-- Gridtest -->
+</suite> <!-- TestingGrid -->
